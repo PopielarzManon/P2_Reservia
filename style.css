@@ -1,0 +1,17 @@
+html{
+    background-color: white;
+}
+.logo{
+    float: left;
+}
+.head{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1px;
+}
+.element
+{
+    margin-left: 12px;
+    margin-top: 20px;
+}
