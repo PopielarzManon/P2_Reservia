@@ -2,79 +2,122 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylessheet" href="CSS/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>Reservia</title>
         <link rel="shortcut icon" href="images/logo/Reservia.svg">
     </head>
         <body>
             <header>
-                <div class="logo">
-                    <img src="images/logo/Reservia@3x.png" alt="Logo" width="120px" height="50px">
-                </div>
-            <section id="secune">
-                <div class="Liens">
+                <!-- Bannière -->
+        <section class="banniere">
+                <div class="container">
+                    <img class="logo" src="images/logo/Reservia@3x.png" alt="Logo" width="120px" height="50px">
+                     </div>
+                <div id="container">
                     <nav class="head">
-                        <div class="element">Hébergement</div>
-                        <div class="element">Activité</div>
-                        <div class="element">S'inscrire</div>
+                        <div class="Lien1">Hébergement</div>
+                        <div class="Lien2">Activité</div>
+                        <div class="Lien3"><b>S'inscrire</b></div>
                     </nav>
+                 </div>
                 </div>
-            </header>
-            <h1>Trouver votre hébergement pour les vacances</h1>
-                <p>En plein centre ville ou en pleine nature</p>
-                <div class="barre">
+        </section>
+      
+        <!--Barre de recherche-->
+      </header>
+        <section class="recherche">
+           <div class="presentation"> 
+               <p>
+                <h1>Trouver votre hébergement pour les vacances</h1>
+                <h2>En plein centre ville ou en pleine nature</h2>
+            </p>
+        </div>
+
+                <div id="barre">
                     <p>Barre de recherche</p>
                 </div>
-                <div class="filtres">
-                    <p>Filtres</p>
-                    <p>Economique</p>
-                    <p>Familial</p>
-                    <p>Romantique</p>
-                    <p>Animaux autorisés</p>
+                <div id="filtres">
+                    <div><p>Filtres</p></div>
+                    <div><p></p>Economique</p></div>
+                    <div><p>Familial</p></div>
+                    <div><p>Romantique</p></div>
+                    <div><p>Animaux autorisés</p></div>
                 </div>
-            </section>
+        </section>
+           
+            
+            <!--Hebergements-->
+            
+            
+            
             <section id="hebergement">
                 <div class="hebergement">
-                    <h1>Hébergement à Marseille</h1>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <p class="tittles"><b>Hébergement à Marseille</b></p>
+                    <div class="ham"><img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" width="300"></div>
+                    <div class="ham"><img src="images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt=""width="300"></div>
+                    <div class="ham"><img src="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt=""width="300"></div>
+                    <div class="ham"><img src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt=""width="300"></div>
+                    <div class="ham"><img src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt=""width="300"></div>
+                    <div class="ham"><img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt=""width="300"></div>
                     <p>Afficher plus</p>
+             
                 </div>
+            </div>
+            </article>
+            <article class="populaires">
+                <p class="tittles"><b>Les plus populaires</b></p>
+                <div class="popu"> <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt=""></div>
+                <div class="popu"> <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" ></div>
+                <div class="popu"> <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="" ></div>
+            </article>
          </section>
-            <section id="populaires">
-                <p>Les plus populaires</p>
-                <div></div>
-                <div></div>
-                <div></div>
-         </section>
+
+
+
+
+
 
          <section id="activite">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="acti"><img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt=""></div>
+            <div class="acti"><img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"></div>
+            <div class="acti"><img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt=""></div>
+            <div class="acti"><img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt=""></div>
+            <div class="acti"><img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt=""></div>
+            <div class="acti"><img src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt=""></div>
 
 
          </section>
 
+        <!--Footer-->
+        
          <footer>
-             <div id="propos">
-                 <p>A propos</p>
+             <section class="fin">
+            <div id="propos">
+                 <p><b>A propos</b></p>
+                 <ul>
+                     <li>Fonctionnement du site</li>
+                     <li>Conditions générales de vente</li>
+                     <li>Données et confidentialité</li>
+                 </ul>
              </div>
             
              <div id="nosheberg">
-                <p>Nos hébergement</p>
+                <p><b>Nos hébergement</b></p>
+                <ul>
+                    <li>Charte qualité</li>
+                    <li>Soumettre l'hôtel</li>
+                </ul>
             </div>
             <div id="Assis">
-                <p>Assistance</p>
-            </div id=>             
-         </footer>
-        </body>
-
-    </html>
+                <p><b>Assistance</b></p>
+                <ul>
+                    <li>Centre d'aide</li>
+                    <li>Nous contacter</li>
+                </ul>
+            </div>             
+        
+        </footer>
+    </section>
+   </body>
+  </html>

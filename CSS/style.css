@@ -1,0 +1,13 @@
+.fin{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(236, 236, 236);
+    margin-left: -100px;
+
+}
+.fin p:nth-child(1){
+margin-left: 40px;
+}
+ul{
+    list-style: none;
+}
