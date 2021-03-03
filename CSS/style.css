@@ -1,10 +1,27 @@
 html{
     font-family: 'Raleway', sans-serif;
 }
+
+.logo{
+    width:120px;
+    height:50px;
+    display: flex;
+    align-self: flex-start;
+
+}
+
+head{
+
+ margin-left: auto;
+}
+
+a{
+    margin-right: 50px;
+}
 a:link{
     text-decoration: none;
 }
- a:visited{
+a:visited{
     color: black;
     text-decoration: none;
 }
@@ -13,18 +30,14 @@ a:hover{
     text-decoration: overline;
 
 }
-.logo{
-    margin-top: -25px;
-    float: left;
+#alone{
+    color: #0065FC;
+    font-weight: bold;
 }
-.head{
+header{
     display: flex;
-    justify-content: flex-end;
-    margin-top: 50px;
-}
-
-.Lien{
- margin-left: 30px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h2{
