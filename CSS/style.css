@@ -7,6 +7,7 @@ html{
     height:50px;
     display: flex;
     align-self: flex-start;
+    margin-left: 10px;
 
 }
 
@@ -42,16 +43,11 @@ header{
 
 h2{
     color: rgb(105, 105, 105);
-}
-
-.recherche{
-    margin-top: 50px;
-}
-h2{
     margin-top: -15px;
     font-size: 15px;
 }
-#filtres{
+  
+#items-filter{
     max-width: 60%;
     display: flex;
     justify-content:space-between;
@@ -59,56 +55,73 @@ h2{
 img{
     object-fit:cover;
 }
-#hebergement{
-    float: left;
-    max-width: 65%;
+#secondary-container{
+    display: flex;
+    justify-content:space-between;
+    
 }
-.hebergement{
+.secondary-container-wrapper{
     
     background-color: #F2F2F2;
     border-radius: 20px;
-    display: flexbox;
+    margin-bottom: 150px;
+    height: 540px;
+    width: 65%;
+}
+.secondary-container-wrapper2{
 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction:column ;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    height: 540px;
+    width: 32%;
+ 
 }
 
-.ham{
+
+.card{
     
 background-color: #ffffff;
 border-radius: 20px;
 display: inline-block;
 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
-margin-left: 20px;
-margin-top: 10px;
+margin-left: 10px;
 
 }
-.ham2{
-    
-    background-color: #ffffff;
-    border-radius: 20px;
-    display: inline-block;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
-    margin-left: 20px;
-    margin-bottom: 20px;
-    width: 350px;
+figcaption{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 15px;
+    height: 20x;
+}
+.subtitles{
+    color: rgb(105, 105, 105);
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+.side{
+    float: right;
+    text-align: left;
+}
 
-    
-    }
-
-.nice
+.image
 {
     width: 200px;
-    height: 120px;
+    height: 90px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border: 5px solid white;
+    border: 3px solid white;
 }
-.nice2
+.image2
 {
     width: 130PX;
     height: 100px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    border: 5px solid white;
+    border: 3px solid white;
 }
 
 .nice3{
@@ -118,40 +131,13 @@ margin-top: 10px;
 
     }
 
-.side{
-    float: right;
-    text-align: left;
-    margin-top: 20px;
-}
 
 
 
-.populaires{
-
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    display: flex;
-    flex-direction:column ;
-    justify-content: space-around;
-    align-content: flex-end;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    height: 450px;
-    margin-top: 40px;
-    margin-right: -20px;
-    width: 400px;
 
 
-    
-
-}
 
 
-figcaption{
-    text-align: left;
-    margin-left: 10px;
-    font-size: 15px;
-}
 
 .fin{
     display: flex;
