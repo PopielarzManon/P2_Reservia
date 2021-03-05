@@ -1,32 +1,107 @@
 html{
     font-family: 'Raleway', sans-serif;
 }
-
+/*Logo et icones*/
 .logo{
     width:120px;
     height:50px;
     display: flex;
     align-self: flex-start;
-    margin-left: 10px;
+
 
 }
+i.fas{
+    color: #0065FC;
+}
+#light{
+    color: rgba(105, 105, 105, 0.233);
+}
+p i.fas{
+    margin-right: 10px;
+}
+
+
+.secondary-container-wrapper i.fas{
+margin-bottom: 8px;
+}
+/**/
+/*Formulaires*/
+form {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  input {
+    all: unset;
+    color: rgb(0, 0, 0);
+    border: rgba(0, 0, 0, 0.048) solid 1px;
+    height: 50%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+  ::placeholder {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    opacity: 0.7; 
+  }
+  button{
+      background-color: #0065FC;
+      color: #ffffff;
+      font-weight: bold;
+      border: none;
+      height: 85%;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+  #form i.fas{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black;
+      background-color:#F2F2F2;
+      height: 85%;
+      width: 20%;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+  }
+
+  .styled {
+    border: solid 2px rgba(0, 0, 0, 0.041);
+    font-size: 17px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 2rem;
+    margin-top: 0.75em;
+}
+
+.styled:hover {
+    background-color:#0065FC;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
 
 head{
 
  margin-left: auto;
 }
-
-a{
+/*Liens*/
+header a{
     margin-right: 50px;
 }
-a:link{
+header a:link{
     text-decoration: none;
 }
-a:visited{
+header a:visited{
     color: black;
     text-decoration: none;
 }
-a:hover{
+header a:hover{
     color: #0065FC;
     text-decoration: overline;
 
@@ -35,6 +110,23 @@ a:hover{
     color: #0065FC;
     font-weight: bold;
 }
+
+
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+
+}
+
+
+
+/**/
 header{
     display: flex;
     align-items: center;
@@ -46,10 +138,20 @@ h2{
     margin-top: -15px;
     font-size: 15px;
 }
-h3, h4, h5{
-    margin-left: 20px;
+h3, h5{
+    margin-left: 1.25rem;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 1.25rem;
+}
+h4{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.25rem;
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+h4 i.fas{
+    margin-right: 0.5em;
 }
   
 #items-filter{
@@ -70,17 +172,20 @@ img{
     background-color: #F2F2F2;
     border-radius: 20px;
     height: 35rem;
-    width: 68%;
+    width: 70%;
 }
 .card{
     
     background-color: #ffffff;
     border-radius: 20px;
-    display: inline-block;
+    display: inline-flex;
+    align-items:flex-start;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
-    margin-left: 10px;
+    margin-left: 20px;
+    flex-flow: column;
     
 }
+
 
 .image{
     width: 220px;
@@ -96,7 +201,7 @@ img{
     background-color: #F2F2F2;
     border-radius: 20px;
     height: 35rem;
-    width: 28%;
+    width: 25%;
  
 }
 
@@ -104,7 +209,7 @@ img{
     
     background-color: #ffffff;
     border-radius: 20px;
-    display: inline-block;
+    display: inline-flex;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
     display: flex;
     margin-left:20px;
@@ -212,32 +317,30 @@ figcaption p{
 
 
 
-.fin{
+.end{
     display: flex;
-    justify-content: space-around;
+    align-items: flex-start;
     background-color: #F2F2F2;
-    margin-left: -100px;
+    width: 100%;
 
 }
-.fin p:nth-child(1){
-margin-left: 40px;
+.end p{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-weight: bolder;
+    margin-right: 300px;
 }
+
 ul{
     list-style: none;
+    list-style-type: none;
+    padding:0;
     color: rgb(105, 105, 105);
 }
 .tittles{
     font-size: 25px;
     margin-left: 10px;
-}
-.acti{
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    
 }
 
 
