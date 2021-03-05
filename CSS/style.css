@@ -151,7 +151,10 @@ header a:visited{
 }
 header a:hover{
     color: #0065FC;
-    text-decoration: overline;
+    padding-top: 15px;
+    border-top-style: solid;
+    width: fit-content;
+    
 
 }
 #alone{
