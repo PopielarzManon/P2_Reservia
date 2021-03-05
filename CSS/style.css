@@ -13,6 +13,20 @@ html{
 i.fas{
     color: #0065FC;
 }
+.info{
+    display: flex;
+    
+}
+.info i.fas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    border-radius: 50%;
+    border:rgb(197, 197, 197) solid 1.3px;
+    height: 23px;
+    width: 23px;
+}
 #light{
     color: rgba(105, 105, 105, 0.233);
 }
@@ -121,11 +135,14 @@ head{
 
  margin-left: auto;
 }
+
+
 /*Liens*/
 header a{
     margin-right: 50px;
 }
 header a:link{
+    color: black;
     text-decoration: none;
 }
 header a:visited{
@@ -144,6 +161,7 @@ header a:hover{
 
 
 a:link{
+
     text-decoration: none;
 }
 a:visited{
