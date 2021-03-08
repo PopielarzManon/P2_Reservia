@@ -1,6 +1,7 @@
 html{
     font-family: 'Raleway', sans-serif;
     scroll-behavior: smooth;
+
 }
 /*Logo et icones*/
 .logo{
@@ -225,8 +226,9 @@ img{
     
     background-color: #F2F2F2;
     border-radius: 20px;
-    height: 35rem;
-    width: 70%;
+    height: 100%;
+    width: 68%;
+    display: table;
 }
 .card{
     
@@ -237,12 +239,13 @@ img{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
     margin-left: 20px;
     flex-flow: column;
+    width: 24%;
     
 }
 
 
 .image{
-    width: 220px;
+    width: 97%;
     height: 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -254,8 +257,8 @@ img{
     flex-direction:column ;
     background-color: #F2F2F2;
     border-radius: 20px;
-    height: 35rem;
-    width: 25%;
+    height: 100%;
+    width: 27%;
  
 }
 
@@ -269,11 +272,12 @@ img{
     margin-left:20px;
     align-items: center;
     width: 90%;
+    
    
  }
 
  .image2{
-        width: 120PX;
+        width: 60%;
         height: 110px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
