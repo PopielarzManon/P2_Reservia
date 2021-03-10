@@ -218,17 +218,19 @@ img{
     object-fit:cover;
 }
 #secondary-container{
-    display: flex;
-    justify-content:space-between;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 20px;
     
 }
 .secondary-container-wrapper{
-    
+    display: table-cell;
     background-color: #F2F2F2;
     border-radius: 20px;
     height: 100%;
     width: 68%;
-    display: table;
+
+    
 }
 .card{
     
@@ -253,12 +255,12 @@ img{
 }
 .secondary-container-wrapper2{
 
-    display: flex;
-    flex-direction:column ;
+    display: table-cell;
     background-color: #F2F2F2;
     border-radius: 20px;
     height: 100%;
     width: 27%;
+    padding: 5px;
  
 }
 
@@ -277,8 +279,16 @@ img{
  }
 
  .image2{
-        width: 60%;
-        height: 110px;
+        width: 50%;
+        height: 140px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 3px solid white;
+        
+    }
+    .image2_1{
+        width: 62%;
+        height: 140px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
         border: 3px solid white;
@@ -286,13 +296,14 @@ img{
     }
 
 
+
 figcaption{
     font-weight: bolder;
     margin: 0;
     text-align: left;
     margin-left: 5px;
-    font-size: 15px;
-    height: 20x;
+    font-size: 1.2vw;
+
     
 }
 figcaption p{
@@ -301,7 +312,7 @@ figcaption p{
 .subtitles{
     color: rgb(105, 105, 105);
     margin-bottom: 15px;
-    font-size: 10px;
+    font-size: 1vw;
 }
 .details{
     font-weight: bold;
