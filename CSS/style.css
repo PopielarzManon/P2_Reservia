@@ -5,8 +5,8 @@ html{
 }
 /*Logo et icones*/
 .logo{
-    width:120px;
-    height:50px;
+    width:10vw;
+    height:3vw;
     display: flex;
     align-self: flex-start;
 
@@ -17,6 +17,7 @@ i.fas{
 }
 .info{
     display: flex;
+    font-size: 1.3vw;
     
 }
 .info i.fas{
@@ -26,8 +27,8 @@ i.fas{
     color: #0065FC;
     border-radius: 50%;
     border:rgb(197, 197, 197) solid 1.3px;
-    height: 23px;
-    width: 23px;
+    height: 2vw;
+    width: 2vw;
 }
 #light{
     color: rgba(105, 105, 105, 0.233);
@@ -43,8 +44,8 @@ margin-bottom: 8px;
 /**/
 /*Formulaires*/
 form {
-    width: 300px;
-    height: 40px;
+    width: 25vw;
+    height: 3.5vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,6 +60,7 @@ form {
   }
   ::placeholder {
     font-weight: bold;
+    font-size: 1.2vw;
     color: rgb(0, 0, 0);
     opacity: 0.7; 
   }
@@ -66,6 +68,7 @@ form {
       background-color: #0065FC;
       color: #ffffff;
       font-weight: bold;
+      font-size: 1.2vw;
       border: none;
       height: 85%;
       border-top-right-radius: 10px;
@@ -81,18 +84,19 @@ form {
       width: 25%;
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
+      font-size: 1.2vw;
   }
 
 
 .filter-tittle{
     font-weight: bold;
-    margin-top: 1.4rem;
+    font-size: 1.2vw;
 }
 
 .styled {
 
     border: solid 2px rgba(0, 0, 0, 0.041);
-    font-size: 17px;
+    font-size: 1.2vw;
     display: flex;
     text-align: flex-start;
     align-items: center;
@@ -101,11 +105,11 @@ form {
     color: rgb(0, 0, 0);
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
-    height: 2.5rem;
+    height: 2.3vw;
     margin-top: 0.75em;
     margin-left: 1.5vw;
     padding:0;
-    width: 30vw;
+
     
     
     
@@ -116,8 +120,8 @@ form {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    height: 45px;
-    width: 50px;
+    height: 2.8vw;
+    width: 2.8vw;
     color: #0065FC;
     background-color:#c8deff ;
     
@@ -137,27 +141,32 @@ form {
 
 /*Liens*/
 header a{
-    margin-right: 50px;
+    margin-right: 1.2vw;
+    font-size: 1.2vw;
 }
 header a:link{
     color: black;
     text-decoration: none;
+    font-size: 1.2vw;
 }
 header a:visited{
     color: black;
     text-decoration: none;
+    font-size: 1.2vw;
 }
 header a:hover{
     color: #0065FC;
     padding-top: 15px;
     border-top-style: solid;
     width: fit-content;
+    font-size: 1.2vw;
     
 
 }
 #alone{
     color: #0065FC;
     font-weight: bold;
+    font-size: 1.2vw;
 }
 
 
@@ -182,23 +191,25 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-
+h1{
+    font-size: 1.8vw;
+}
 h2{
     color: rgb(105, 105, 105);
-    margin-top: -15px;
-    font-size: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2vw;
 }
 h3, h5{
     margin-left: 1.25rem;
     font-weight: bolder;
-    font-size: 1.25rem;
+    font-size: 1.8vw;
 }
 h4{
     display: flex;
     justify-content: space-between;
     margin-left: 1.25rem;
     font-weight: bolder;
-    font-size: 1.25rem;
+    font-size: 1.8vw;
 }
 h4 i.fas{
     margin-right: 0.5em;
@@ -209,6 +220,7 @@ h4 i.fas{
     display: flex;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
+    flex-wrap: wrap;
 }
 img{
     object-fit:cover;
@@ -318,6 +330,7 @@ figcaption p{
 .details{
     font-weight: bold;
     margin-left: 4vw;
+    font-size: 1.6vw;
 }
 
 #thrid-container{
@@ -394,6 +407,7 @@ figcaption p{
     align-items: flex-start;
     background-color: #F2F2F2;
     width: 100%;
+    font-size: 1.2vw;
 
 }
 .end p{
@@ -410,14 +424,11 @@ ul{
     padding:0;
     color: rgb(105, 105, 105);
 }
-.tittles{
-    font-size: 25px;
-    margin-left: 10px;
-}
+
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 768px)
 {
     html{
         background-color: antiquewhite;
