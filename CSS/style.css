@@ -89,7 +89,7 @@ form {
     margin-top: 1.4rem;
 }
 
-  .styled {
+.styled {
 
     border: solid 2px rgba(0, 0, 0, 0.041);
     font-size: 17px;
@@ -103,8 +103,9 @@ form {
     background-color: rgb(255, 255, 255);
     height: 2.5rem;
     margin-top: 0.75em;
-    margin-left: 3rem;
+    margin-left: 1.5vw;
     padding:0;
+    width: 30vw;
     
     
     
@@ -132,11 +133,6 @@ form {
     cursor: pointer;
 }
 
-
-head{
-
- margin-left: auto;
-}
 
 
 /*Liens*/
@@ -229,6 +225,7 @@ img{
     border-radius: 20px;
     height: 100%;
     width: 68%;
+    vertical-align: center;
 
     
 }
@@ -239,7 +236,6 @@ img{
     display: inline-flex;
     align-items:flex-start;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
-    margin-left: 20px;
     flex-flow: column;
     width: 24%;
     
@@ -271,7 +267,7 @@ img{
     display: inline-flex;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
     display: flex;
-    margin-left:20px;
+    margin-left:1vw;
     align-items: center;
     width: 90%;
     
@@ -296,6 +292,11 @@ img{
     }
 
 
+figure{
+    margin-right:0;
+    margin-left: 4vw;
+
+}
 
 figcaption{
     font-weight: bolder;
@@ -316,7 +317,7 @@ figcaption p{
 }
 .details{
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 4vw;
 }
 
 #thrid-container{
@@ -383,7 +384,9 @@ figcaption p{
 
 
 
-
+#charte{
+    width: 30vw;
+}
 
 
 .end{
@@ -398,7 +401,7 @@ figcaption p{
     justify-content: flex-start;
     flex-direction: row;
     font-weight: bolder;
-    margin-right: 300px;
+    margin-right: 25vw;
 }
 
 ul{
@@ -412,4 +415,13 @@ ul{
     margin-left: 10px;
 }
 
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 1024px)
+{
+    html{
+        background-color: antiquewhite;
+
+    }   
+}
 
