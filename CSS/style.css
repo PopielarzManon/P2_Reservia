@@ -210,6 +210,7 @@ html, body {
     a:link{
 
         text-decoration: none;
+        color: black ;
     }
     a:visited{
         color: black;
@@ -876,6 +877,7 @@ html, body {
         margin:15px;
         flex-wrap: wrap;
         width: 43%;
+        margin-left: 15px;
         
     
     }
@@ -1288,8 +1290,12 @@ html, body {
         height: 250px;
         
     }
-
-
+    .card i.fas{
+        color: #0065FC;
+    }
+    .card2 i.fas{
+        color: #0065FC;
+    }
     .image{
         width: 98%;
         height: 150px;
@@ -1307,9 +1313,7 @@ html, body {
         order: 1;
     
     }
-    .secondary-container-wrapper2 i.fas{
-        color: black;
-    }
+
     .card2{
         
         background-color: #ffffff;
