@@ -1282,7 +1282,7 @@ html, body {
         align-items:flex-start;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
         flex-flow: column;
-        width: 100%;
+        width: 97%;
         margin-left: 1vw;
         margin-right: 0;
         height: 250px;
@@ -1320,7 +1320,7 @@ html, body {
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
         display: flex;
         margin-left:1vw;
-        width: 90%;
+        width: 93%;
         margin-top: 5vw;
         
         
@@ -1385,7 +1385,7 @@ html, body {
         align-items:flex-start;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
         flex-flow: column;
-        width: 100%;
+        width: 96%;
         margin-left: 1vw;
         margin-right: 0;
         height: 250px;
@@ -1398,7 +1398,7 @@ html, body {
         align-items:flex-start;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
         flex-flow: column;
-        width: 100%;
+        width: 96%;
         margin-left: 1vw;
         margin-right: 0;
         height: 250px;
@@ -1412,7 +1412,7 @@ html, body {
         align-items:flex-start;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
         flex-flow: column;
-        width: 100%;
+        width: 96%;
         margin-left: 1vw;
         margin-right: 0;
         height: 250px;
@@ -1426,7 +1426,7 @@ html, body {
         align-items:flex-start;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
         flex-flow: column;
-        width: 100%;
+        width: 96%;
         margin-left: 1vw;
         margin-right: 0;
         height: 250px;
@@ -1492,6 +1492,10 @@ html, body {
         flex-direction: column;
         flex-wrap: nowrap;
         
+        
+    }
+    li{
+        width: 100vw;
     }
           
 }
